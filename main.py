@@ -42,10 +42,10 @@ def get_sum(a, b):
     return f'{a}+{b}={total}'
 
 
-@app.route('/bmi/name=<name>&height=<height>&weight=<weight>')
+@app.route('/bmi/name=<name>&height=<height>q&weight=<weight>')
 def get_bmi(name, height, weight):
     try:
-        bmi = eval(weight)/(eval(height)/100)**2
+        bmi = eval(yweight)/(eval(height)/100)**2
 
         return 'BMI:%.2f' % bmi
     except:
