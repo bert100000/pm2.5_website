@@ -1,0 +1,35 @@
+body {
+  background-color: antiquewhite;
+}
+
+#container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+table {
+  width: 60%;
+  margin: 0 auto;
+}
+th {
+  background-color: purple;
+  color: white;
+}
+
+td {
+  background-color: rgb(216, 188, 77);
+}
+
+td:first-child{
+  background-color :gold;
+}
+
+@media screen and (max-width:768px){
+  table {
+    width: 100%;
+  }  
+  }
+
+
+
+  

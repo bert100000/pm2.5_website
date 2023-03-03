@@ -1,0 +1,18 @@
+#date {
+  display: inline-block;
+  padding: 6px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+  }
+    
+body {
+  background-color: antiquewhite;
+}
+  
+#container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
